@@ -14,7 +14,7 @@ from customer_modules import ExploratoryDataAnalysis
 
 OHE_SCALER_PATH = os.path.join(os.getcwd(), 'saved_model', 'ohe_scaler.pkl')
 SS_SCALER_PATH = os.path.join(os.getcwd(), 'saved_model', 'ss_scaler.pkl')
-MODEL_PATH = os.path.join(os.getcwd(), 'model.h5')
+MODEL_PATH = os.path.join(os.getcwd(), 'saved_model', 'model.h5')
 DATA_PATH = os.path.join(os.getcwd(),'new_customers.csv')
 
 ohe_scaler = pickle.load(open(OHE_SCALER_PATH, 'rb'))
